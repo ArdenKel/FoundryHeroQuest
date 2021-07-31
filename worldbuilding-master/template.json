@@ -3,7 +3,7 @@
   "types": ["character"],
   "character": {
     "biography": "",
-    "health": {
+    "body": {
       "value": 10,
       "min": 0,
       "max": 10
@@ -11,6 +11,16 @@
     "power": {
       "value": 5,
       "min": 0,
+      "max": 5
+    },
+    "Attack Dice": {
+      "value": 5,
+      "min": 1,
+      "max": 5
+    },
+    "Defense Dice": {
+      "value": 5,
+      "min": 1,
       "max": 5
     },
     "attributes": {},
